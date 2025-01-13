@@ -3,30 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Challenge</title>
+  <title>Vectra HuntClub CTF 2025</title>
   <style>
     body {
       font-family: "Helvetica Neue", Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #0d1117;
       color: #c9d1d9;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .overlay {
+      background-color: rgba(13, 17, 23, 0.8); /* Dark overlay */
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .container {
       max-width: 800px;
-      margin: 50px auto;
       padding: 20px;
       background: #161b22;
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      text-align: center;
     }
     h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: #58a6ff;
     }
     p {
-      font-size: 1.1rem;
-      line-height: 1.6;
+      font-size: 1.2rem;
+      line-height: 1.8;
     }
     a {
       color: #58a6ff;
@@ -45,16 +53,18 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Challenge</h1>
-    <p>
-      Welcome to our challenge! Here's a brief description of what you'll need to do:  
-      <strong>[CHALLENGE EXPLANATION]</strong>
-    </p>
-    <p>
-      Ready to get started?  
-      <a href="[AWS S3 LINK]" target="_blank" download>Click here to download the challenge file</a>.
-    </p>
+  <div class="overlay">
+    <div class="container">
+      <h1>Challenge</h1>
+      <p>
+        Welcome to our challenge! Here's a brief description of what you'll need to do:  
+        <strong>[CHALLENGE EXPLANATION]</strong>
+      </p>
+      <p>
+        Ready to get started?  
+        <a href="[AWS S3 LINK]" target="_blank" download>Click here to download the challenge file</a>.
+      </p>
+    </div>
   </div>
   <footer>
     © 2025 Your Company Name. All rights reserved.
